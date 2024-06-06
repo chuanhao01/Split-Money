@@ -1,6 +1,6 @@
 {
   "editor.tabSize": 2,
-  "[javascript][typescript][jsonc]": {
+  "[javascript][typescript][jsonc][typescriptreact][javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.rulers": [100],
     "editor.formatOnSave": true,
