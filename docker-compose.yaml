@@ -1,0 +1,13 @@
+# Use postgres/example user/password credentials
+services:
+  db:
+    image: postgres
+    restart: always
+    ports:
+       - "5432:5432"
+    volumes:
+      - ./data:/var/lib/postgresql/data
+      - ./db:/opt/db
+    environment:
+      POSTGRES_PASSWORD: test
+      PGDATA: /var/lib/postgresql/data/pgdata
